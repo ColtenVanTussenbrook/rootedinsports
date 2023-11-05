@@ -9,7 +9,7 @@ const LinkWrapper = ({ children }: { children: JSX.Element }) => {
 };
 
 const Navbar = () => (
-  <nav className="relative pb-12">
+  <nav className="relative mb-2 md:mb-12">
     <ul className="inline-flex">
       <LinkWrapper>
         <Link href="/">Home</Link>
