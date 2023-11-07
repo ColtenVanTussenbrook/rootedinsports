@@ -15,7 +15,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body className={robotoSlab.className}>
-        <div className="px-12 py-6 md:px-96 md:py-24 flex flex-col gap-8">
+        <div className="px-12 py-6 lg:px-72 lg:py-24 flex flex-col gap-8">
           <Navbar />
           {children}
           <SocialIcons />
