@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.2.2",
     "contentlayer": "^0.3.4",
     "date-fns": "^2.30.0",
     "eslint-config-prettier": "^9.0.0",

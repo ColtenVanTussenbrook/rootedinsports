@@ -1,5 +1,6 @@
 import './globals.css';
 import type { Metadata } from 'next';
+import { Analytics } from '@vercel/analytics/react';
 import { Roboto_Slab } from 'next/font/google';
 import Navbar from './components/navbar';
 import SocialIcons from './components/social-icons';
@@ -20,6 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {children}
           <SocialIcons />
         </div>
+        <Analytics />
       </body>
     </html>
   );
