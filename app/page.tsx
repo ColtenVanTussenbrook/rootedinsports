@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center px-4 py-8 bg-amber-50 text-gray-900">
       <div className="w-full text-center mb-12">
-        <Heading className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tight uppercase ">
+        <Heading>
           Rooted In Sports
         </Heading>
         <div className="text-sm uppercase tracking-widest mt-2 border-t border-b border-gray-800 py-1 max-w-md">
