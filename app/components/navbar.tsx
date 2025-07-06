@@ -9,16 +9,16 @@ const LinkWrapper = ({ children }: { children: JSX.Element }) => {
 };
 
 const Navbar = () => (
-  <nav className="relative mb-2 md:mb-12">
+  <nav className="relative mb-4 md:mb-8 border-b border-gray-400 pb-2">
     <ul className="inline-flex">
       <LinkWrapper>
-        <Link href="/">Home</Link>
+        <Link href="/" className="hover:text-gray-700 font-bold">Home</Link>
       </LinkWrapper>
       <LinkWrapper>
-        <Link href="/about">About</Link>
+        <Link href="/about" className="hover:text-gray-700 font-bold">About</Link>
       </LinkWrapper>
       <LinkWrapper>
-        <Link href="/blog">Blog</Link>
+        <Link href="/blog" className="hover:text-gray-700 font-bold">Blog</Link>
       </LinkWrapper>
     </ul>
   </nav>

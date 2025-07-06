@@ -22,10 +22,12 @@ export default async function Page({ params }: { params: { slug: string } }) {
   const MDXContent = getMDXComponent(post?.body.code);
 
   return (
-    <div>
+    <div className="px-4 py-8 lg:px-32 lg:py-16 bg-gray-100 text-black font-serif">
       <Heading>{post.title}</Heading>
-      <MDXContent />
-      <Link href="/blog" className="flex mt-8">
+      <div className="mt-8 text-gray-700 leading-relaxed">
+        <MDXContent />
+      </div>
+      <Link href="/blog" className="flex mt-8 items-center hover:text-gray-700">
         <Image src={backArrow} alt="back arrow icon" width={34} className="pr-2" />
         <p className="underline">Back to blog</p>
       </Link>
